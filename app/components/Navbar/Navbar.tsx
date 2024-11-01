@@ -1,13 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Link from "next/link";
-
+import Image from 'next/image';
 
 export default function Navbar () {
    return (
     <header>
-      <img src="/Logo.png" alt="Logo" />
+      <Image src="/Logo.png" alt="Logo" width= {200} height= {40} />
         <nav>
-        <a href="/#">Home</a>  
+        <Link href="/#">Home</Link>  
         <a href="/UsedCar">Used Cars</a>
         <a href="/NewCar">New Cars</a>
         <a href="/Bike">Bikes</a>

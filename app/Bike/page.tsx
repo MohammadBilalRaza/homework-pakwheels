@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Navbar from "../components/navbar/Navbar"
+import Navbar from "../components/Navbar/Navbar"
 import React from 'react';
 import './Bike.css';
 import Footer from "../components/Footer/Footer";
-
+import Image from 'next/image';
 const Bike = () => {
   return (
     <div>
@@ -13,7 +13,7 @@ const Bike = () => {
 
     <div className="Bike">
       <h1>Honda CG-125 Price in Pakistan, Images, Reviews & Specs</h1>
-      <img src="/CG-125.jpg" alt="Honda CG-125" />
+      <Image src="/CG-125.jpg" alt="Honda CG-125" width = {400} height ={400}/>
       <p>
       Honda CG 125 2024 is amazing </p>
       <div className="price">
